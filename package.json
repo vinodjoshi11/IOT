@@ -2,7 +2,7 @@
   "name": "IOT",
   "version": "1.4.1",
   "description": "built on IOT template and Vuetify UI",
-  "author": "harryho",
+  "author": "vinod",
   "private": true,
   "scripts": {
     "dev": "concurrently --kill-others \"npm run start:server\" \"npm run start\" ",
