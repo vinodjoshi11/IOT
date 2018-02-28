@@ -87,12 +87,6 @@
         },
         {
           icon: 'bubble_chart',
-          title: 'Roles',
-          vertical: 'Roles',
-          link: 'Roles'
-        },
-        {
-          icon: 'bubble_chart',
           title: 'Users',
           vertical: 'Users',
           link: 'Users'
@@ -108,12 +102,6 @@
           title: 'Devices',
           vertical: 'Devices',
           link: 'Devices'
-        },
-        {
-          icon: 'bubble_chart',
-          title: 'Zone',
-          vertical: 'Zone',
-          link: 'Zone'
         }],
         userMenus: [{
           icon: 'bubble_chart',
