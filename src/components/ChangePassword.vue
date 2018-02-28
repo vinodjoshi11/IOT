@@ -11,12 +11,12 @@
               <form @submit.prevent="login">
                 <v-layout row> 
                   <v-flex xs12>
-                    <v-text-field prepend-icon="person" name="password" v-model="pass" label="Password" value="Input text" type="password" class="input-group--focused"></v-text-field>
+                   <v-text-field prepend-icon="lock" name="password" label="Password" id="password" type="password"></v-text-field>
                   </v-flex>
                 </v-layout>
                 <v-layout row> 
                   <v-flex xs12>
-                    <v-text-field prepend-icon="lock" name="cpassword" v-model="pass" label="Confirm Password" value="Input text" type="password" class="input-group--focused"></v-text-field>
+                   <v-text-field prepend-icon="lock" name="cpassword" label="Confirm Password" id="cpassword" type="password"></v-text-field>
                   </v-flex>
                 </v-layout>
                 <v-layout row>
