@@ -1,13 +1,9 @@
-# IOT
-> A reusable Vue.js starter project for real-world business based on Vue 2 PWA template with Vuetify.  
-#### Features
+# IOT 
 
 * This project is built with template by default.
 * The UI part is built on the top of Vuetify.
 * It inlcudes Vuex and Axios to manage authentication. (Dummy token)
- 
 ## Build Setup
-
 ``` bash
 
 # install dependences for vueIOT
@@ -17,15 +13,11 @@ sudo npm install --from-lock-file or sudo npm install
 npm run dev
 ## You will see the following output. You can test API with the URLs via browser.
 ##
-##[0] > json-server -p 5354 db/db.json
-##[0]
-##[1]
+##[0] > json-server -p 5354 db/db.json 
 ##[1] > IOT@1.2.0 start <your_path>\vueIOT
 ##[1] > node build/dev-server.js 
-##[0]
 ##[0]   Loading db/db.json
 ##[0]   Done
-##[0]
 ##[0]   Resources
 ##[0]   http://localhost:5354/token
 ##[0]   http://localhost:5354/Users
@@ -33,7 +25,6 @@ npm run dev
 ##[0]   http://localhost:5354/categories
 ##[1] > Starting dev server...
 ##[1]  DONE  Compiled successfully in xx:xx:xx
-##[1]
 ##[1] > Listening at http://localhost:8080 
 ```
 
