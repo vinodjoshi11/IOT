@@ -20,9 +20,14 @@ npm run dev
 ##[0]   Done
 ##[0]   Resources
 ##[0]   http://localhost:5354/token
+##[0]   http://localhost:5354/token
 ##[0]   http://localhost:5354/Users
-##[0]   http://localhost:5354/Devices 
-##[0]   http://localhost:5354/categories
+##[0]   http://localhost:5354/deviceCategorys
+##[0]   http://localhost:5354/devices
+##[0]   http://localhost:5354/userrole
+##[0]  http://localhost:5354/userzone
+##[0]  http://localhost:5354/categories
+
 ##[1] > Starting dev server...
 ##[1]  DONE  Compiled successfully in xx:xx:xx
 ##[1] > Listening at http://localhost:8080 
