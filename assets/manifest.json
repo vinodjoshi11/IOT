@@ -1,6 +1,6 @@
 {
-  "name": "vue2pwapp",
-  "short_name": "vue2pwapp",
+  "name": "app",
+  "short_name": "app",
   "icons": [
     {
       "src": "/assets/img/icons/android-chrome-192x192.png",
