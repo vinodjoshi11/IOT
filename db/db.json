@@ -1,0 +1,515 @@
+{
+  "token": {
+    "access_token": "token-12345789-abcdefgh",
+    "user": {
+      "firstName": "Vinod",
+      "lastName": "Joshi",
+      "email": "vinod@test.com",
+      "password": "password"
+    }
+  },
+  "Users": [
+    {
+      "id": 1,
+      "isActive": true,
+      "AcountNumber": 27,
+      "firstName": "vikash",
+      "lastName": "vikash",
+      "email": "vikash@test.com",
+      "Role": "Admin",
+      "orders": []
+    },
+    {
+      "id": 2,
+      "isActive": false,
+      "AcountNumber": 25,
+      "firstName": "anmol",
+      "lastName": "Wilson",
+      "email": "anmol@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 3,
+      "isActive": true,
+      "AcountNumber": 45,
+      "firstName": "sourav",
+      "lastName": "ganguly",
+      "email": "sourav@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 4,
+      "isActive": true,
+      "AcountNumber": 43,
+      "firstName": "Suresh",
+      "lastName": "rawat",
+      "email": "Suresh@test.com",
+      "Role": "SubAdmin",
+      "orderRecord": 0
+    },
+    {
+      "id": 5,
+      "isActive": false,
+      "AcountNumber": 29,
+      "firstName": "ravindra",
+      "lastName": "jadeja",
+      "email": "ravindra@test.com",
+      "Role": "SubAdmin",
+      "orders": [],
+      "orderRecord": 0
+    },
+    {
+      "id": 6,
+      "isActive": false,
+      "AcountNumber": 36,
+      "firstName": "harbhajan",
+      "lastName": "shing",
+      "email": "harbhajan@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 7,
+      "isActive": true,
+      "AcountNumber": 28,
+      "firstName": "Virat",
+      "lastName": "Kohli",
+      "email": "Virat@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 8,
+      "isActive": false,
+      "age": "40",
+      "firstName": "Ms",
+      "lastName": "Dhoni",
+      "email": "Ms@test.com",
+      "Role": "SubAdmin",
+      "orders": []
+    },
+    {
+      "id": 9,
+      "isActive": false,
+      "AcountNumber": 27,
+      "firstName": "Rahul",
+      "lastName": "dravid",
+      "email": "Rahul@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 10,
+      "isActive": true,
+      "firstName": "Rahul",
+      "lastName": "dravid",
+      "AcountNumber": 44,
+      "email": "Rahul@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 10,
+      "isActive": false,
+      "firstName": "Rahul",
+      "lastName": "dravid",
+      "AcountNumber": 44,
+      "email": "Rahul@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "id": 16,
+      "isActive": false,
+      "AcountNumber": 38,
+      "firstName": "Ms",
+      "lastName": "Dhoni",
+      "email": "Ms@test.com",
+      "Role": "SubAdmin"
+    },
+    {
+      "firstName": "dsa",
+      "lastName": "dsa",
+      "Role": "ssss",
+      "email": "sdss@gmail.com",
+      "isActive": true,
+      "id": 17
+    }
+  ],
+  "deviceCategorys": [
+    {
+      "id": 1,
+      "deviceName": "Cameras",
+      "Description": "Enable your smart home cameras to enable real time streaming",
+      "Vendor": "TATA LEIBERT"
+    },
+    {
+      "id": 2,
+      "deviceName": "Cars",
+      "Description": "Devices to develop your own smart cars ",
+      "Vendor": "ALSTOM"
+    },
+    {
+      "id": 3,
+      "deviceName": "Door Locks",
+      "Description": "Check the state of your door locks and manipulate if needed  ",
+      "Vendor": " GE INDIA INDUSTRIAL PVT LTD"
+    },
+    {
+      "id": 4,
+      "deviceName": "Lightning",
+      "Description": "Devices to turn smart lights on and off, change the brightness, specify colors",
+      "Vendor": "Make"
+    },
+    {
+      "id": 5,
+      "deviceName": "Thermostats",
+      "Description": "Devices to control thermostat settings and to report current temperatures",
+      "Vendor": "Make"
+    },
+    {
+      "id": 6,
+      "deviceName": "Cameras",
+      "Description": "Enable your smart home cameras to enable real time streaming",
+      "Vendor": "TATA LEIBERT"
+    },
+    {
+      "id": 7,
+      "deviceName": "Cameras",
+      "Description": "Enable your smart home cameras to enable real time streaming",
+      "Vendor": "AMARA RAJA"
+    },
+    {
+      "id": 8,
+      "deviceName": "Cameras",
+      "Description": "Enable your smart home cameras to enable real time streaming",
+      "Vendor": "HITACHI HI-REL POWER ELECTRONICS PVT LTD"
+    },
+    {
+      "id": 9,
+      "deviceName": "Cameras",
+      "Description": "Enable your smart home cameras to enable real time streaming",
+      "Vendor": "DB POWER ELECTRONICS (P) LTD"
+    },
+    {
+      "id": 10,
+      "deviceName": "Cameras",
+      "Description": "Enable your smart home cameras to enable real time streaming",
+      "Vendor": "AMCO SAFT INDIA LTD"
+    }
+  ],
+  "devices": [
+    {
+      "id": 1,
+      "deviceType": "djueddd",
+      "deviceName": "HHYDP",
+      "serialno": 1234576,
+      "Zonearea": 23,
+      "isprimary": true,
+      "amount": null,
+      "isActive": false
+    },
+    {
+      "id": 2,
+      "deviceType": "Cars",
+      "deviceName": "HHYDP",
+      "serialno": 1234576,
+      "Zonearea": 23,
+      "isprimary": false
+    },
+    {
+      "id": 3,
+      "deviceType": "Cooking",
+      "deviceName": "HHYDP",
+      "serialno": 1234576,
+      "Zonearea": 23,
+      "isprimary": true,
+      "amount": null,
+      "isActive": false
+    },
+    {
+      "id": 4,
+      "deviceType": "frize",
+      "deviceName": "HHYDP",
+      "serialno": 2,
+      "Zonearea": 2,
+      "isprimary": true,
+      "amount": null,
+      "isActive": false
+    },
+    {
+      "id": 6,
+      "deviceType": "Lightning",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true
+    },
+    {
+      "id": 7,
+      "deviceType": "frize",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true
+    },
+    {
+      "id": 8,
+      "deviceType": "Lightning",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 9,
+      "deviceType": "Door Locks",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true,
+      "amount": null,
+      "isActive": false
+    },
+    {
+      "id": 10,
+      "deviceType": "Cars",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 11,
+      "deviceType": "Lightning",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true,
+      "amount": null,
+      "isActive": false
+    },
+    {
+      "id": 12,
+      "deviceType": "Cars",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 13,
+      "deviceType": "Lightning",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true
+    },
+    {
+      "id": 14,
+      "deviceType": "Cars",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 15,
+      "deviceType": "Lightning ddd",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 16,
+      "deviceType": "Lightning",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true
+    },
+    {
+      "id": 17,
+      "deviceType": "frize",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 18,
+      "deviceType": "frize",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true
+    },
+    {
+      "id": 19,
+      "deviceType": "Cars",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": false
+    },
+    {
+      "id": 20,
+      "deviceType": "frize",
+      "deviceName": "HHYDP",
+      "serialno": 333,
+      "Zonearea": 333,
+      "isprimary": true
+    },
+    {
+      "categoryId": 2,
+      "id": 21
+    },
+    {
+      "categoryId": 2,
+      "deviceName": "sads",
+      "unitPrice": "dsasdds",
+      "Serialno": "12324",
+      "id": 22
+    },
+    {
+      "categoryId": 0,
+      "id": 23
+    },
+    {
+      "categoryId": 0,
+      "id": 24
+    },
+    {
+      "categoryId": 3,
+      "id": 25
+    },
+    {
+      "categoryId": 5,
+      "deviceName": "nokia",
+      "unitPrice": "free",
+      "Serialno": "3243553",
+      "id": 26
+    },
+    {
+      "categoryId": 0,
+      "AccountId": "1321",
+      "unitPrice": "dasdf",
+      "deviceName": "dfsad",
+      "Serialno": "2424",
+      "Zonearea": "dadfa",
+      "id": 27
+    }
+  ],
+  "userrole": [
+    {
+      "id": 1,
+      "DeiceName": "frize",
+      "description": "Soft drinks, coffees, teas, beers, and ales"
+    },
+    {
+      "id": 2,
+      "DeiceName": "cameras",
+      "description": "Enable your smart home cameras to enable real time streaming"
+    },
+    {
+      "id": 3,
+      "DeiceName": "Cameras",
+      "description": "Enable your smart home cameras to enable real time streaming"
+    },
+    {
+      "id": 4,
+      "DeiceName": "frize",
+      "description": "Soft drinks, coffees, teas, beers, and ales"
+    },
+    {
+      "id": 5,
+      "DeiceName": "Cameras",
+      "description": "Enable your smart home cameras to enable real time streaming"
+    }
+  ],
+  "userzone": [
+    {
+      "id": 441,
+      "UserName": "Virat",
+      "createdTime": "01-01-2017",
+      "updatedTime": "11-02-2017"
+    },
+    {
+      "id": 442,
+      "UserName": "suresh",
+      "createdTime": "01-03-2017",
+      "updatedTime": "11-02-2017"
+    },
+    {
+      "id": 443,
+      "UserName": "Mohan",
+      "createdTime": "21-03-2017",
+      "updatedTime": "11-04-2017"
+    },
+    {
+      "id": 444,
+      "UserName": "Sohan",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    },
+    {
+      "id": 445,
+      "UserName": "xyz",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    },
+    {
+      "id": 446,
+      "UserName": "ravi",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    },
+    {
+      "id": 447,
+      "UserName": "Ram",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    },
+    {
+      "id": 448,
+      "UserName": "xszz",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    },
+    {
+      "id": 449,
+      "UserName": "ssss",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    },
+    {
+      "id": 450,
+      "UserName": "ravindra",
+      "createdTime": "01-01-2018",
+      "updatedTime": "11-02-2018"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "frize",
+      "description": "Soft drinks, coffees, teas, beers, and ales"
+    },
+    {
+      "id": 2,
+      "categoryName": "cameras",
+      "description": "Enable your smart home cameras to enable real time streaming"
+    },
+    {
+      "id": 3,
+      "categoryName": "Cameras",
+      "description": "Enable your smart home cameras to enable real time streaming"
+    },
+    {
+      "id": 4,
+      "categoryName": "frize",
+      "description": "Soft drinks, coffees, teas, beers, and ales"
+    },
+    {
+      "id": 5,
+      "categoryName": "Cameras",
+      "description": "Enable your smart home cameras to enable real time streaming"
+    }
+  ]
+}
