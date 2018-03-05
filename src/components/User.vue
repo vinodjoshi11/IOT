@@ -16,19 +16,17 @@
         <v-card-text>
           <v-container fluid grid-list-md>
             <v-layout row wrap>
-
+              <v-flex md4 xs12>
+                <v-text-field name="AcountNumber" label="Acount Number" hint="Acount Number is required" value="Input text" v-model="User.AcountNumber" class="input-group--focused" required></v-text-field>
+              </v-flex>  
               <v-flex md4 xs12>
                 <v-text-field name="firstName" label="First Name" hint="Last name is required" value="Input text" v-model="User.firstName" class="input-group--focused" required></v-text-field>
               </v-flex>  
               <v-flex md4 xs12>
                 <v-text-field name="lastName" label="Last Name" maxlength="10" hint="Last name is required" value="Input text" v-model="User.lastName" class="input-group--focused" required></v-text-field>
-              </v-flex>
-              <v-flex md4 xs12 v-if="User.avatar">
-                <img v-if="User.avatar" class="responsive" v-bind:src="User.avatar"></img>
-              </v-flex>
-              <v-flex md4 xs12>
-                <v-text-field name="age" type="number" label="Age" hint="Number between 18 to 150" v-bind:rules="rules.age" 
-                 v-model="User.age" class="input-group--focused" required></v-text-field>
+              </v-flex> 
+              <v-flex md4 xs12> 
+                 <v-text-field name="Role" label="Role" maxlength="10" hint="Role is required" value="Input text" v-model="User.Role" class="input-group--focused" required></v-text-field>
               </v-flex>
               <v-flex md4 xs12>
                 <v-text-field name="email" type="email" label="Email" value="Input text" v-model="User.email" 
@@ -52,9 +50,6 @@ export default {
       title: '',
       User: {},
       rules: {
-        age: [() => {
-          if (this.User.age < 18 || this.User.age > 100) return 'Age is required. It must be bewteen 18 and 100'
-        }],
         email: [() => {
           if (this.User.email) {
             /* eslint-disable no-useless-escape */

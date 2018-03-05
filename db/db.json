@@ -121,6 +121,14 @@
       "lastName": "Dhoni",
       "email": "Ms@test.com",
       "Role": "SubAdmin"
+    },
+    {
+      "firstName": "dsa",
+      "lastName": "dsa",
+      "Role": "ssss",
+      "email": "sdss@gmail.com",
+      "isActive": true,
+      "id": 17
     }
   ],
   "deviceCategorys": [
@@ -188,7 +196,7 @@
   "devices": [
     {
       "id": 1,
-      "deviceType": "Cameras",
+      "deviceType": "djueddd",
       "deviceName": "HHYDP",
       "serialno": 1234576,
       "Zonearea": 23,
@@ -377,6 +385,15 @@
       "unitPrice": "free",
       "Serialno": "3243553",
       "id": 26
+    },
+    {
+      "categoryId": 0,
+      "AccountId": "1321",
+      "unitPrice": "dasdf",
+      "deviceName": "dfsad",
+      "Serialno": "2424",
+      "Zonearea": "dadfa",
+      "id": 27
     }
   ],
   "userrole": [

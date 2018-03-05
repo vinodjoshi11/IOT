@@ -79,12 +79,7 @@
         // clipped: false,
         drawer: true,
         fixed: false,
-        items: [{
-          icon: 'bubble_chart',
-          title: 'Account',
-          vertical: 'Account',
-          link: 'Account'
-        },
+        items: [
         {
           icon: 'bubble_chart',
           title: 'Users',

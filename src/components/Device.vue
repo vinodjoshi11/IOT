@@ -6,11 +6,11 @@
           {{title}}
           <v-spacer></v-spacer>
           <!--<v-text-field append-icon="search" label="Search" single-line hide-details v-model="search"></v-text-field>-->
-          <v-btn fab small class="grey" @click.native="cancel()">
+          <v-btn fab small class="grey whitefont" @click.native="cancel()">
             <v-icon>cancel</v-icon>
           </v-btn>
           &nbsp;
-          <v-btn fab small class="purple" @click.native="save()">
+          <v-btn fab small class="purple whitefont" @click.native="save()">
             <v-icon>save</v-icon>
           </v-btn>
         </v-card-title>
@@ -18,20 +18,29 @@
           <v-container fluid grid-list-md>
             <v-layout row wrap class="px-10">
               <v-flex md4 xs12>
+                <v-text-field name="AccountId" label="Account Id" hint="Account Id is required" value="Input text" v-model="device.id"
+                  class="input-group--focused" required></v-text-field>
+              </v-flex> 
+              <v-flex md4 xs12>
+                <v-text-field name="deviceType" label="Device Type" hint="device Type is required" value="Input text" v-model="device.deviceType"
+                  class="input-group--focused" required></v-text-field>
+              </v-flex>
+
+              <v-flex md4 xs12>
                 <v-text-field name="deviceName" label="device" hint="device name is required" value="Input text" v-model="device.deviceName"
                   class="input-group--focused" required></v-text-field>
               </v-flex>
               <v-flex md4 xs12>
-                <v-text-field name="deviceType" label="device Type" hint="device Type is required" value="Input text" v-model="device.unitPrice"
-                  class="input-group--focused" required></v-text-field>
-              </v-flex>
+                <v-text-field name="Serialno" label="Serial no" v-model="device.serialno" class="input-group--focused"
+                  required></v-text-field>
+              </v-flex> 
               <v-flex md4 xs12>
-                <v-text-field name="Serialno" label="Serialno" v-model="device.Serialno" class="input-group--focused"
+                <v-text-field name="Zonearea" label="Zone Area" v-model="device.Zonearea" class="input-group--focused"
                   required></v-text-field>
               </v-flex>
-              <v-flex md4 xs12>
+              <!--<v-flex md4 xs12>
                 <v-select required v-bind:items="categoryList" label="Category" v-model="device.categoryId"></v-select>
-              </v-flex>
+              </v-flex>-->
             </v-layout>
           </v-container>
         </v-card-text>
@@ -81,7 +90,7 @@
         this.device.categoryId = item.value
       },
       getById: function () {
-        this.api.getData('devices/' + this.$route.params.id + '?_expand=deviceCategorys').then((res) => {
+        this.api.getData('devices/' + this.$route.params.id).then((res) => {
           this.device = res.data
           // this.device.category.categoryName = this.device.category.firstName + ' ' + this.device.category.lastName
         }, (err) => {
@@ -115,3 +124,6 @@
     }
   }
 </script>
+<style>
+.whitefont{color:#fff;}
+</style>

@@ -8,9 +8,9 @@
           <v-spacer></v-spacer> 
            <v-text-field append-icon="search" label="Search" single-line hide-details v-model="searchVm.contains.deviceType" v-on:keyup="searchUsers"></v-text-field> 
           &nbsp;
-          <v-btn fab small dark class="purple" @click.native="add">
+          <!--<v-btn fab small dark class="purple" @click.native="add">
             <v-icon>add</v-icon>
-          </v-btn>
+          </v-btn>-->
         </v-card-title>
       </v-card-text>  
         <v-data-table v-bind:headers="headers" v-bind:items="items" :search="search" v-bind:pagination.sync="pagination" hide-actions
@@ -22,13 +22,15 @@
             <td class="text-xs-right">sn{{ props.item.serialno }}</td>
             <td class="text-xs-right">{{ props.item.Zonearea }}</td>
 
-            <!--<td class="text-xs-right" v-if="props.item.isprimary===true">
-              <v-icon  class="light">done</v-icon>
-              <v-btn fab small class="cyan"  @click.native="remove(props.item)">
+           <td class="text-xs-right" >
+               <v-btn fab small dark class="teal" @click.native="edit(props.item)">
+                <v-icon>edit</v-icon>
+              </v-btn>
+              <!--<v-btn fab small class="cyan"  @click.native="remove(props.item)">
                 <v-icon style="color:#fff;">delete</v-icon>
-              </v-btn> 
+              </v-btn>--> 
              </td>
-           <td class="text-xs-right" v-if="props.item.isprimary===false">  
+           <!--<td class="text-xs-right" v-if="props.item.isprimary===false">  
               <v-icon   class="light">block</v-icon>
                <v-btn fab small class="cyan" @click.native="remove(props.item)">
                 <v-icon style="color:#fff;">delete</v-icon>
@@ -40,7 +42,7 @@
       </v-alert>
         </v-data-table>
         <div class="text-xs-center pt-2">
-          <v-pagination v-model="pagination.page" :value="pages" :length="pages" :total-visible="5" circle></v-pagination>
+          <v-pagination v-model="pagination.page" :value="pages" :length="pages" :total-visible="8" circle></v-pagination>
         </div>
         
       </v-card>
@@ -80,6 +82,10 @@
         {
           text: 'Zone Area',
           value: 'unitInStock'
+        },
+        {
+          text: ' ',
+          value: ' '
         }],
         items: [],
         searchVm: {
@@ -96,12 +102,9 @@
       }
     },
     methods: {
-      print() {
-        window.print()
-      },
       edit(item) {
         this.$router.push({
-          name: 'device',
+          name: 'Device',
           params: {
             id: item.id
           }

@@ -7,11 +7,11 @@
           <v-spacer></v-spacer>
            <v-text-field append-icon="search" label="Search" single-line hide-details v-model="searchVm.contains.firstName" v-on:keyup="searchUsers"></v-text-field>
            &nbsp;
-          <v-btn fab small dark class="purple" @click.native="add">
+          <!--<v-btn fab small dark class="purple" @click.native="add">
             <v-icon>add</v-icon>
           </v-btn>
           &nbsp;
-          <!--<v-btn fab small dark class="grey" @click.native="print">
+          <v-btn fab small dark class="grey" @click.native="print">
             <v-icon>print</v-icon>
           </v-btn>-->
         </v-card-title>
@@ -30,14 +30,14 @@
             </td>-->
             <td class="text-xs-right">
               <!--<v-btn fab small dark class="indigo" @click.native="changeStatus(props.item)">
-                <v-icon>autorenew</v-icon>-->
+                <v-icon>autorenew</v-icon>
               </v-btn>
               <v-btn fab small dark class="teal" @click.native="edit(props.item)">
                 <v-icon>edit</v-icon>
               </v-btn>
               <v-btn fab small dark class="cyan" @click.native="remove(props.item)">
                 <v-icon>delete</v-icon>
-              </v-btn>
+              </v-btn>-->
             </td>
           </template>
           <v-alert slot="no-results" :value="true" color="error" icon="warning">
@@ -75,13 +75,11 @@
           {
             text: 'First Name',
             align: 'left',
-            sortable: false,
             value: 'firstName'
           },
           { text: 'Last Name', value: 'lastName' },
           { text: 'Email', value: 'email' },
-          { text: 'Role', value: 'Role' },
-          { text: '', value: '' }
+          { text: 'Role', value: 'Role' }
         ],
         items: [],
         searchVm: {
@@ -96,9 +94,6 @@
       }
     },
     methods: {
-      print() {
-        window.print()
-      },
       edit(item) {
         this.$router.push({ name: 'User', params: { id: item.id } })
       },

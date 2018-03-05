@@ -7,7 +7,7 @@
 ``` bash
 
 # install dependences for vueIOT
-cd vueIOT
+cd IOT
 sudo npm install --from-lock-file or sudo npm install
 # serve with hot reload at localhost:8080
 npm run dev
@@ -19,7 +19,6 @@ npm run dev
 ##[0]   Loading db/db.json
 ##[0]   Done
 ##[0]   Resources
-##[0]   http://localhost:5354/token
 ##[0]   http://localhost:5354/token
 ##[0]   http://localhost:5354/Users
 ##[0]   http://localhost:5354/deviceCategorys

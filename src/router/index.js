@@ -55,7 +55,7 @@ export default new Router({
         next('/login')
       }
     },
-    { path: '/', redirect: '/account' },
+    { path: '/', redirect: '/Users' },
     { path: '*', redirect: '/404' }
   ],
   meta: {
